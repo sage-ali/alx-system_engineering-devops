@@ -1,9 +1,2 @@
 #!/bin/bash
-for dir in .
-do
-	if [ -d "$dir" ];
-	then
-		chmod ugo+x hello
-	fi
-done
-
+for dir in .; do; if [ -d "$dir" ]; then; chmod ugo+x hello; fi; done
