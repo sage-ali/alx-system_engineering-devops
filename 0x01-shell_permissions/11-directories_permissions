@@ -6,4 +6,4 @@ do
 		chmod ugo+x hello
 	fi
 done
-\n
+
