@@ -1,2 +1,2 @@
-#! /bin/sh
+#!/bin/bash
 chmod 774 hello\n

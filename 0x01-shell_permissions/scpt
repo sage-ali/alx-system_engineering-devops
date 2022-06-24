@@ -1,0 +1,7 @@
+for var in *-*
+
+do
+	p="#! /bin/sh"
+	q="#!/bin/bash"
+	sed -i --expression "s@$p@$q@g" "$var" >> "$var"
+done
