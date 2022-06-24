@@ -3,5 +3,5 @@ for var in *-*
 do
 	p="#! /bin/sh"
 	q="#!/bin/bash"
-	sed -i '$s/..$//' "$var"
+	sed -i -e '$a\' "$var"
 done
