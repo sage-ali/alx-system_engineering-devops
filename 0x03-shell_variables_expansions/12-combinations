@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {{a..n}{p..z},{p..z}{a..n},{a..n}{a..n},{p..z}{p..z}} o{a..n} {a..n}o o{p..z} {p..z}o | tr " " \\n | sort
